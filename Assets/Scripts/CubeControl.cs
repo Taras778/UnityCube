@@ -11,6 +11,6 @@ public class CubeControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += 0.01f * Vector3.up;
     }
 }
